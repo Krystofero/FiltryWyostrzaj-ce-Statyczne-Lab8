@@ -27,7 +27,7 @@ Filtry wyostrzające bazują na maskach 3x3 . Zaimplementowane jest w nich norma
                 
   W Filtrze Laplace'a mamy do wyboru jedną z trzech masek(wybieramy zaznaczając odpowiedni RadioButton):
   
-  if (radioButton1.Checked == true)
+            if (radioButton1.Checked == true)
             {
                 maska[0, 0] = 0;
                 maska[0, 1] = -1;
