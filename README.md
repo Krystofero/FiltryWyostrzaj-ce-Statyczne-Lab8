@@ -39,6 +39,7 @@ Filtry wyostrzające bazują na maskach 3x3 . Zaimplementowane jest w nich norma
                 maska[2, 1] = -1;
                 maska[2, 2] = 0;
             }
+            
             else if(radioButton2.Checked == true)
             { 
                 maska[0, 0] = -1;
@@ -51,6 +52,7 @@ Filtry wyostrzające bazują na maskach 3x3 . Zaimplementowane jest w nich norma
                 maska[2, 1] = -1;
                 maska[2, 2] = -1;
             }
+            
             else
             {
                 maska[0, 0] = -2;
